@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_2_Arko Pal</title>
+</head>
+
+<body>
+    <div>Personal details</div>
+    <form method="post">
+        <label>Salutation</label><br>
+        <select>
+            <option disabled selected>--Select--</option>
+            <option>Mr.</option>
+            <option>Mrs.</option>
+        </select><br><br>
+        <label for="fname">First Name:- </label>
+        <input id="fname" type="text" name="FirstName" placeholder="Arko" size="20"><br><br>
+        <label for="lname">Last Name:-</label>
+        <input id="lname" type="text" name="LastName" placeholder="pal" size="20"><br><br>
+        <label>Gender:- </label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female<br><br>
+        <label for="email">Email:-</label>
+        <input type="email" id="email" name="email" placeholder="arkopal8@gmail.com"><br><br>
+        <label for="dob">Date Of Birth:- </label>
+        <input id="dob" type="date" name="D.O.B"><br><br>
+        <label for="add">Address:-</label><br>
+        <textarea rows="5" cols="35" id="add" name="address" placeholder="Enter Your Address Here"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
